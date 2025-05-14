@@ -3,11 +3,6 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "functions": {
-    "api/index.js": {
-      "includeFiles": "dist/client/**"
-    }
-  },
   "routes": [
     {
       "src": "/api/(.*)",
